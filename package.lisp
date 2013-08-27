@@ -2,6 +2,5 @@
 
 (defpackage #:uptime
   (:use #:cl)
-  (:use #:chronicity))
-  ;; (:use #:simple-date-time))
+  (:use #:local-time))
 

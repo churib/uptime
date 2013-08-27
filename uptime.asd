@@ -2,10 +2,11 @@
 
 (asdf:defsystem #:uptime
   :serial t
-  :description "Describe uptime here"
-  :author "Your Name <your.name@example.com>"
-  :license "Specify license here"
+  :vserion "0.0.1"
+  :description "reads first and last timestamps per day from syslog"
+  :author "Timo Grodzinski <timo.grodzinski@gmail.com>"
+  :license "LGPLv3"
   :components ((:file "package")
                (:file "uptime"))
-  :depends-on ("chronicity" "simple-date-time"))
+  :depends-on ("local-time"))
 
